@@ -10,7 +10,7 @@
 
 Unit tests are meant to be the primary test type.
 This directory has tests for modules or classes
-that mock out any external dependencies.
+that mocks out any external dependencies.
 
 This is the only directory that counts for test coverage.
 
@@ -25,7 +25,7 @@ don't change their behavior from the user's point of view;
 unit tests wouldn't necessarily catch when units don't connect properly.
 
 Consider any errors from this directory to be a confirmation prompt:
-`pytest` will print how what the users sees has changed,
+`pytest` will print what the users sees has changed,
 and if it seems sensible, just update the snapshots with `make regenerate-tests`.
 
 ### `qa/`
